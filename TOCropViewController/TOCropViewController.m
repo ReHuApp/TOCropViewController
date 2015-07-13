@@ -259,13 +259,13 @@ typedef NS_ENUM(NSInteger, TOCropViewControllerAspectRatio) {
                                                     cancelButtonTitle:NSLocalizedStringFromTable(@"Cancel", @"TOCropViewControllerLocalizable", nil)
                                                destructiveButtonTitle:nil
                                                     otherButtonTitles:NSLocalizedStringFromTable(@"Original", @"TOCropViewControllerLocalizable", nil),
-                                                                      NSLocalizedStringFromTable(@"Square", @"TOCropViewControllerLocalizable", nil),
-                                                                      verticalCropBox ? @"2:3" : @"3:2",
-                                                                      verticalCropBox ? @"3:5" : @"5:3",
-                                                                      verticalCropBox ? @"3:4" : @"4:3",
-                                                                      verticalCropBox ? @"4:5" : @"5:4",
-                                                                      verticalCropBox ? @"5:7" : @"7:5",
-                                                                      verticalCropBox ? @"9:16" : @"16:9",nil];
+                                  NSLocalizedStringFromTable(@"Square", @"TOCropViewControllerLocalizable", nil),nil];
+//                                                                      verticalCropBox ? @"2:3" : @"3:2",
+//                                                                      verticalCropBox ? @"3:5" : @"5:3",
+//                                                                      verticalCropBox ? @"3:4" : @"4:3",
+//                                                                      verticalCropBox ? @"4:5" : @"5:4",
+//                                                                      verticalCropBox ? @"5:7" : @"7:5",
+//                                                                      verticalCropBox ? @"9:16" : @"16:9",nil];
     
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
         [actionSheet showFromRect:self.toolbar.clampButtonFrame inView:self.toolbar animated:YES];
